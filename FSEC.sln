@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSEC", "FSEC\FSEC.csproj", "{38FD3C8F-D76D-4365-9615-03F7E712958B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FD3C8F-D76D-4365-9615-03F7E712958B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FD3C8F-D76D-4365-9615-03F7E712958B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FD3C8F-D76D-4365-9615-03F7E712958B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FD3C8F-D76D-4365-9615-03F7E712958B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
