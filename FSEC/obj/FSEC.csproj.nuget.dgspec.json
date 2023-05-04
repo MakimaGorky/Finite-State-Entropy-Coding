@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\FSEC\\FSEC\\FSEC.csproj": {}
+    "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\Finite-State-Entropy-Coding\\FSEC\\FSEC.csproj": {}
   },
   "projects": {
-    "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\FSEC\\FSEC\\FSEC.csproj": {
+    "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\Finite-State-Entropy-Coding\\FSEC\\FSEC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\FSEC\\FSEC\\FSEC.csproj",
+        "projectUniqueName": "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\Finite-State-Entropy-Coding\\FSEC\\FSEC.csproj",
         "projectName": "FSEC",
-        "projectPath": "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\FSEC\\FSEC\\FSEC.csproj",
+        "projectPath": "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\Finite-State-Entropy-Coding\\FSEC\\FSEC.csproj",
         "packagesPath": "C:\\Users\\maidv\\.nuget\\packages\\",
-        "outputPath": "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\FSEC\\FSEC\\obj\\",
+        "outputPath": "C:\\MYO PR\\C-Shark~~~~\\fun\\discrete 2 sem\\FSEC\\Finite-State-Entropy-Coding\\FSEC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maidv\\AppData\\Roaming\\NuGet\\NuGet.Config"

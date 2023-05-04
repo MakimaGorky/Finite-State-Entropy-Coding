@@ -46,12 +46,14 @@ public static class FSdEcoding
             bin *= 2;
         }
         curInd -= maxDeg == 0 ? 1 : maxDeg;
-        
-        //Console.WriteLine($"    )({newState + maxIntLength / 2 * (crutch - totalFreq + minCount + 1)}");
+        //Console.WriteLine($"    )|{newState + totalFreq - maxIntLength * (crutch + 1)}");
+        //Console.WriteLine($"    )({newState + maxIntLength / 2 * (alphabet[letter] - crutch)}");
         
         if (normalizer == 0)
             return newState + totalFreq - maxIntLength * (crutch + 1);
-        return (newState + maxIntLength / 2 * ( (crutch) - alphabet[letter] + (crutch == alphabet[letter] - 1 ? 0 : minCount) + 1));
+        return
+            //newState + (alphabet[letter] - crutch) * maxIntLength / 2;
+            (newState + maxIntLength / 2 * (alphabet[letter] - crutch - 1)); // + (crutch == alphabet[letter] - 1 ? 0 : minCount) + 1));
     }
     
     public static string Decode(Dictionary<char, int> alf, int state, Bit[] mes)

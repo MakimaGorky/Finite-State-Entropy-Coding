@@ -26,11 +26,11 @@ public static class FSEncoding
 
         var minCount = (alphabet[nextLetter] - totalFreq / maxIntLength) * 2;
         
-        var crutch = 0; //remove crutch.
+        var crutch = 0; //remove crutch. <=> numState 
 
         if (totalFreq + state >= alphabet[nextLetter] * maxIntLength)
         {
-            crutch = state / maxIntLength + (minCount == 0 ? minCount + 1 : minCount) - 1;
+            crutch = (state - maxIntLength / 2 * minCount) / maxIntLength + minCount; //(alphabet[nextLetter] - state / maxIntLength + (minCount == 0 ? 1 : 0)); // + (minCount == 0 ? minCount + 1 : minCount) - 1;
             letterCode = BitOperation.ConvertToBitList((state - maxIntLength / 2 * minCount) % maxIntLength, maxDeg);
         }
         else
